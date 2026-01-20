@@ -1,0 +1,22 @@
+{
+  "name": "movie-recommendation-backend",
+  "version": "1.0.0",
+  "description": "Backend for Movie Recommendation App using Gemini API",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "npx tsx src/server.ts"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.5.0",
+    "@google/generative-ai": "^0.21.0",
+    "@types/node": "^22.10.2",
+    "@types/sql.js": "^1.4.9",
+    "dotenv": "^16.4.5",
+    "fastify": "^4.28.1",
+    "sql.js": "^1.11.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
